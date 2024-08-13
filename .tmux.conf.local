@@ -17,6 +17,8 @@ tmux_conf_preserve_stock_bindings=false
 
 # -- session creation ----------------------------------------------------------
 
+set -g default-terminal "screen-256color" #!important
+
 # prompt for session name when creating a new session, possible values are:
 #   - true
 #   - false (default)
